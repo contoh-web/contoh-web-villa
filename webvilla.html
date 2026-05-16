@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elysium | Kemewahan Villa Tanpa Batas</title>
+    <!-- Placeholder untuk CSS yang akan dibuat nanti -->
+    <link rel="stylesheet" href="webvilla.css">
+</head>
+<body class="loading">
+
+    <!-- Preloader untuk transisi awal yang sinematik -->
+    <div class="preloader">
+        <div class="preloader-text">
+            <span>E</span><span>L</span><span>Y</span><span>S</span><span>I</span><span>U</span><span>M</span>
+        </div>
+        <div class="progress-bar-wrapper">
+            <div class="progress-bar"></div>
+        </div>
+    </div>
+
+    <!-- Navigasi -->
+    <header class="navbar">
+        <div class="container">
+            <div class="logo">
+                <a href="#">ELYSIUM.</a>
+            </div>
+            <nav class="nav-links">
+                <ul>
+                    <li><a href="#about" class="hover-underline">Tentang Kami</a></li>
+                    <li><a href="#villas" class="hover-underline">Vila & Suite</a></li>
+                    <li><a href="#experiences" class="hover-underline">Pengalaman</a></li>
+                    <li><a href="#gallery" class="hover-underline">Galeri</a></li>
+                </ul>
+            </nav>
+            <div class="nav-actions">
+                <button class="pesan btn btn-outline">Pesan Sekarang</button>
+                <div class="menu-toggle">
+                    <span class="line"></span>
+                    <span class="line"></span>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero Section dengan Parallax -->
+        <section id="hero" class="hero-section">
+            <div class="hero-background" data-speed="0.5">
+                <!-- Nantinya di CSS akan diberi background image/video -->
+                <div class="overlay-dark"></div>
+            </div>
+            <div class="hero-content">
+                <p class="subtitle reveal-up">Temukan Pelarian Anda</p>
+                <h1 class="title reveal-up title-split">Surga Tersembunyi<br>di Ujung Bumi</h1>
+                <div class="scroll-indicator reveal-up">
+                    <span class="scroll-text">Gulir ke bawah</span>
+                    <div class="scroll-line"></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section (Cerita/Pengalaman) -->
+        <section id="about" class="about-section padding-large">
+            <div class="container split-layout">
+                <div class="about-text-content">
+                    <h2 class="section-title reveal-text">Lebih Dari Sekadar <br>Tempat Beristirahat.</h2>
+                    <p class="description reveal-up">
+                        Selamat datang di Elysium, di mana arsitektur modern berpadu harmonis dengan alam liar yang tak tersentuh. 
+                        Terletak di tebing dramatis dengan pemandangan samudra tanpa batas, vila kami dirancang untuk mereka yang mencari kedamaian sejati, privasi absolut, dan pelayanan tak tertandingi.
+                    </p>
+                    <p class="description reveal-up">
+                        Setiap sudut dibangun dengan material alami yang berkelanjutan, menciptakan transisi yang mulus antara ruang dalam yang mewah dan keindahan alam di luar. Biarkan waktu melambat dan jiwa Anda kembali bernapas.
+                    </p>
+                    <a href="#" class="btn btn-link reveal-up">Jelajahi Kisah Kami <span class="arrow">→</span></a>
+                </div>
+                <div class="about-image-content">
+                    <div class="image-wrapper reveal-image">
+                        <img src="https://hotelier.id/wp-content/uploads/2024/03/Villa-Bumi-Cihanjawar.webp" alt="Pemandangan Teras Elysium">
+                    </div>
+                    <!-- Elemen dekoratif untuk animasi paralaks kecil -->
+                    <div class="floating-badge" data-speed="1.2">
+                        <span>Pemenang Penghargaan Arsitektur 2025</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Akomodasi / Tipe Vila -->
+        <section id="villas" class="villas-section padding-large bg-light">
+            <div class="container text-center">
+                <h2 class="section-title reveal-text">Pusaka Pribadi Anda</h2>
+                <p class="section-subtitle reveal-up">Pilih perlindungan sempurna Anda, masing-masing dengan kolam renang tanpa batas dan panorama eksklusif.</p>
+            </div>
+
+            <div class="villa-carousel-wrapper">
+                <!-- Vila 1 -->
+                <article class="villa-card reveal-up">
+                    <div class="villa-image">
+                        <img src="https://hotelier.id/wp-content/uploads/2023/12/Front-One-Resort-Magelang.webp" alt="Ocean Front Suite">
+                        <div class="villa-tags">2 Tamu • 150m²</div>
+                    </div>
+                    <div class="villa-details">
+                        <h3>Ocean Front Suite</h3>
+                        <p>Kamar utama dengan jendela setinggi langit-langit menghadap langsung ke lautan lepas. Dilengkapi dengan bathtub marmer dan teras pribadi.</p>
+                        <a href="#" class="btn btn-text">Lihat Detail</a>
+                    </div>
+                </article>
+
+                <!-- Vila 2 -->
+                <article class="villa-card reveal-up">
+                    <div class="villa-image">
+                        <img src="https://th.bing.com/th/id/OIP._PkEQCl87IMipdmPxbASxwHaE8?o=7rm=3&rs=1&pid=ImgDetMain&o=7&rm=3" alt="Jungle Canopy Villa">
+                        <div class="villa-tags">4 Tamu • 250m²</div>
+                    </div>
+                    <div class="villa-details">
+                        <h3>Jungle Canopy Villa</h3>
+                        <p>Tersembunyi di rimbunnya dedaunan tropis, vila dua kamar tidur ini menawarkan privasi maksimal dengan kolam air panas pribadi dan ruang makan terbuka.</p>
+                        <a href="#" class="btn btn-text">Lihat Detail</a>
+                    </div>
+                </article>
+
+                <!-- Vila 3 -->
+                <article class="villa-card reveal-up">
+                    <div class="villa-image">
+                        <img src="https://cimanggubogor.com/wp-content/uploads/2017/02/villa-bukit-pinus-pancawati-sukabumi-bogor.jpg" alt="Elysium Royal Estate">
+                        <div class="villa-tags">8 Tamu • 600m²</div>
+                    </div>
+                    <div class="villa-details">
+                        <h3>Elysium Royal Estate</h3>
+                        <p>Puncak kemewahan. Menampilkan bioskop pribadi, gudang anggur bawah tanah, helipad, dan pelayan pribadi 24/7 yang siap memenuhi setiap keinginan Anda.</p>
+                        <a href="#" class="btn btn-text">Lihat Detail</a>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <!-- Fasilitas & Pengalaman (Layout Grid Interaktif) -->
+        <section id="experiences" class="experiences-section padding-large text-light">
+            <div class="bg-parallax-wrapper">
+                <!-- Background statis yang akan berefek paralaks -->
+                <div class="bg-parallax-image" data-speed="0.8"></div>
+            </div>
+            
+            <div class="container container-relative">
+                <h2 class="section-title reveal-text">Merayakan Setiap Detik</h2>
+                
+                <div class="experience-grid">
+                    <div class="experience-item reveal-up">
+                        <div class="icon-wrapper">
+                            <!-- SVG Placeholder -->
+                            <svg width="40" height="40"><circle cx="20" cy="20" r="18" stroke="white" stroke-width="2" fill="none"/></svg>
+                        </div>
+                        <h4>Gastronomi Bintang Lima</h4>
+                        <p>Nikmati hidangan epikurean yang disiapkan oleh chef pemenang penghargaan, menggunakan bahan organik lokal yang dipetik di hari yang sama.</p>
+                    </div>
+                    
+                    <div class="experience-item reveal-up" style="transition-delay: 0.1s;">
+                        <div class="icon-wrapper">
+                            <svg width="40" height="40"><rect x="5" y="5" width="30" height="30" stroke="white" stroke-width="2" fill="none"/></svg>
+                        </div>
+                        <h4>Sanctuary Spa</h4>
+                        <p>Ritual pemulihan kuno yang dipadukan dengan teknik modern di paviliun bambu terbuka, dengan suara aliran sungai sebagai latar belakang.</p>
+                    </div>
+
+                    <div class="experience-item reveal-up" style="transition-delay: 0.2s;">
+                        <div class="icon-wrapper">
+                            <svg width="40" height="40"><polygon points="20,5 35,35 5,35" stroke="white" stroke-width="2" fill="none"/></svg>
+                        </div>
+                        <h4>Eksplorasi Tak Terbatas</h4>
+                        <p>Dari menyelam di terumbu karang perawan, hingga tur helikopter ke gunung berapi aktif, kami menyusun petualangan eksklusif untuk Anda.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Cinematic Gallery (Masonry Style) -->
+        <section id="gallery" class="gallery-section padding-large">
+            <div class="container">
+                <div class="gallery-header flex-between">
+                    <h2 class="section-title reveal-text">Simfoni Visual</h2>
+                    <a href="#" class="btn btn-outline reveal-up">Lihat Semua Resolusi Tinggi</a>
+                </div>
+                
+                <div class="gallery-masonry">
+                    <div class="gallery-item large reveal-scale">
+                        <div class="image-overlay"><span>Infinity Pool di kala Senja</span></div>
+                        <img src="https://tse4.mm.bing.net/th/id/OIP.QiTQwF9D8XGaNNSF4a--IwHaEp?w=720&h=452&rs=1&pid=ImgDetMain&o=7&rm=3" alt="Gallery 1">
+                    </div>
+                    <div class="gallery-item medium reveal-scale">
+                        <div class="image-overlay"><span>Interior Master Bedroom</span></div>
+                        <img src="https://tse3.mm.bing.net/th/id/OIP.JuRc2Ka9w990BRA00wYswwHaE8?w=600&h=400&rs=1&pid=ImgDetMain&o=7&rm=3" alt="Gallery 2">
+                    </div>
+                    <div class="gallery-item small reveal-scale">
+                        <div class="image-overlay"><span>Detail Arsitektur</span></div>
+                        <img src="https://tse2.mm.bing.net/th/id/OIP.aFgi-1SblCeyLN_0TLP2NwAAAA?w=460&h=300&rs=1&pid=ImgDetMain&o=7&rm=3" alt="Gallery 3">
+                    </div>
+                    <div class="gallery-item medium reveal-scale">
+                        <div class="image-overlay"><span>Santap Malam Romantis</span></div>
+                        <img src="https://tse2.mm.bing.net/th/id/OIP.w0o_8e2Da7hanedMsA1-mAAAAA?rs=1&pid=ImgDetMain&o=7&rm=3" alt="Gallery 4">
+                    </div>
+                    <div class="gallery-item tall reveal-scale">
+                        <div class="image-overlay"><span>Sanctuary Spa Pathway</span></div>
+                        <img src="https://www.emporioarchitect.com/upload/portofolio/thumb/desain-villa-modern-2-lantai-73121024-64464328121024081021-0.jpg" alt="Gallery 5">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Call To Action (Full Screen Cinematic Text) -->
+        <section class="cta-section padding-large text-center">
+            <div class="container container-small">
+                <h2 class="huge-title reveal-text">Siap Menghentikan Waktu?</h2>
+                <p class="cta-desc reveal-up">Biarkan kami merancang pelarian yang tidak akan pernah Anda lupakan. Ketersediaan sangat terbatas.</p>
+                <div class="cta-buttons reveal-up">
+                    <button class="bawah btn btn-primary btn-large">Cek Ketersediaan</button>
+                    <button class="bawah btn btn-outline btn-large">Hubungi Concierge</button>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer Mega -->
+    <footer class="footer">
+        <div class="container footer-grid">
+            <div class="footer-brand">
+                <h2 class="footer-logo">ELYSIUM.</h2>
+                <p>Mendefinisikan ulang kemewahan di tepi dunia.</p>
+                <div class="social-links">
+                    <a href="#">Instagram</a>
+                    <a href="#">Twitter</a>
+                    <a href="#">YouTube</a>
+                </div>
+            </div>
+            
+            <div class="footer-links">
+                <h4>Vila</h4>
+                <ul>
+                    <li><a href="#">Ocean Front</a></li>
+                    <li><a href="#">Jungle Canopy</a></li>
+                    <li><a href="#">Royal Estate</a></li>
+                </ul>
+            </div>
+            
+            <div class="footer-links">
+                <h4>Perusahaan</h4>
+                <ul>
+                    <li><a href="#">Tentang Elysium</a></li>
+                    <li><a href="#">Karir</a></li>
+                    <li><a href="#">Pers & Media</a></li>
+                    <li><a href="#">Keberlanjutan Lingkungan</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-newsletter">
+                <h4>Buletin Eksklusif</h4>
+                <p>Berlangganan untuk menerima undangan rahasia dan penawaran khusus dari kami.</p>
+                <form class="newsletter-form">
+                    <input type="email" placeholder="Alamat Email Anda" required>
+                    <button type="submit" class="btn btn-submit">→</button>
+                </form>
+            </div>
+        </div>
+        <div class="container footer-bottom flex-between">
+            <p>&copy; 2026 Elysium Resorts & Villas. Seluruh Hak Cipta Dilindungi.</p>
+            <div class="legal-links">
+                <a href="#">Kebijakan Privasi</a>
+                <a href="#">Syarat & Ketentuan</a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Library Eksternal (Disiapkan untuk tahap JS nanti) -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+    <script src="webvilla.js"></script>
+</body>
+</html>
